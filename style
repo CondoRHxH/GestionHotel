@@ -1,0 +1,127 @@
+:root {
+  --primary-color: #eee;
+  --blue: blue;
+  --red: red;
+  --dark-grey: rgb(44, 44, 44);
+  --light-grey: rgb(238, 238, 238);
+  --instagram-color: #d62976;
+  --twitter-color: #00acee;
+  --linkedin-color: #0072b1;
+  --whatsapp-color: #128C7E;
+}
+
+html {
+  background: var(--primary-color)
+}
+
+body {
+  max-width: auto;
+  margin: 20px auto;
+  color: wheat;
+}
+
+.panHeader, .testimonials {
+  text-align: center;
+}
+
+.testimonials .quote {
+  color: var(--blue);
+}
+
+.testimonials .source {
+  color: var(--red);
+}
+
+.address {
+  text-align: left;
+  color: var(--blue);
+}
+
+
+
+ .card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  padding: 25px;
+  width: fit-content;
+  height: fit-content;
+
+}
+
+.socialContainer {
+  width: 52px;
+  height: 52px;
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition-duration: 0.3s;
+}
+
+/* Couleurs au survol */
+.containerOne:hover {
+  background-color: #d62976; /* Instagram */
+}
+.containerTwo:hover {
+  background-color: #00acee; /* Twitter */
+}
+.containerThree:hover {
+  background-color: #0072b1; /* LinkedIn */
+}
+.containerFour:hover {
+  background-color: #128C7E; /* WhatsApp */
+}
+
+/* Animation au clic */
+.socialContainer:active {
+  transform: scale(0.9);
+  transition-duration: 0.3s;
+}
+
+/* Icône SVG */
+.socialSvg {
+  width: 17px;
+}
+.socialSvg path {
+  fill: rgb(255, 255, 255);
+}
+
+/* Animation au survol */
+.socialContainer:hover .socialSvg {
+  animation: slide-in-top 0.3s both;
+}
+
+@keyframes slide-in-top {
+  0% {
+    transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.map-section {
+  padding: 60px 0;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.map-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.map-container {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
