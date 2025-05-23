@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>À Propos de Nous</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #00032e;
+      line-height: 1.6;
+    }
+
+    .about-header {
+      background-color: #00032e;
+      color: wheat;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .about-header h1 {
+      margin-bottom: 10px;
+      font-size: 36px;
+    }
+
+    .about-header p {
+      font-size: 18px;
+    }
+
+    .about-section {
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .about-section h2 {
+      font-size: 28px;
+      margin-bottom: 15px;
+    }
+
+    .about-section p {
+      margin-bottom: 20px;
+      font-size: 16px;
+    }
+
+    .about-values {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 30px;
+      margin-top: 40px;
+    }
+
+    .value-box {
+      background-color: white;
+      padding: 20px;
+      flex: 1 1 250px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .value-box h3 {
+      margin-top: 0;
+      color: #eeba2b;
+    }
+
+    .cta-section {
+      text-align: center;
+      margin-top: 60px;
+    }
+
+    .cta-section a {
+      background-color: #00032e;
+      color: wheat;
+      padding: 12px 30px;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    .cta-section a:hover {
+      background-color: #eeba2b;
+      color: #00032e;
+    }
+
+    @media (max-width: 768px) {
+      .about-header h1 {
+        font-size: 28px;
+      }
+
+      .about-values {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="about-header">
+    <h1>À propos Nous</h1>
+    <p>Votre confort, notre passion depuis plus d'une décennie</p>
+  </header>
+
+  <section class="about-section">
+    <h2>Qui sommes-nous ?</h2>
+    <p>Nous sommes un hôtel de luxe situé au cœur de la ville, offrant des services haut de gamme, une hospitalité chaleureuse et des chambres soigneusement conçues pour garantir à chaque client une expérience mémorable.</p>
+    
+    <p>Depuis plus de 10 ans, nous avons accueilli des milliers de visiteurs du monde entier, en mettant l’accent sur l’élégance, le confort et un service client irréprochable.</p>
+
+    <h2>Nos valeurs</h2>
+    <div class="about-values">
+      <div class="value-box">
+        <h3>Excellence</h3>
+        <p>Chaque détail est pensé pour surpasser vos attentes.</p>
+      </div>
+      <div class="value-box">
+        <h3>Hospitalité</h3>
+        <p>Un accueil chaleureux et personnalisé pour chaque client.</p>
+      </div>
+      <div class="value-box">
+        <h3>Innovation</h3>
+        <p>Nous intégrons des technologies modernes pour améliorer votre séjour.</p>
+      </div>
+    </div>
+
+    <div class="cta-section">
+      <a href="reservation.php">Reserver D'abord</a>
+    </div>
+  </section>
+
+</body>
+</html>
