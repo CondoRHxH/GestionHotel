@@ -22,6 +22,7 @@ This project was created for learning purposes and demonstrates backend developm
 
 ## 📂 Project Structure
 
+```
 GestionHotel/
 │
 ├── page_acceuil.html
@@ -36,6 +37,8 @@ GestionHotel/
 ├── paiements.txt
 ├── images/
 └── style/
+```
+
 
 
 ### File Description
@@ -76,11 +79,3 @@ Reservation listing
 
 Simple and clean user interface
 
-🚀 Future Improvements
-Admin authentication system
-
-Dashboard with statistics
-
-Automatic room availability management
-
-Integration with real payment gateway API
