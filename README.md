@@ -1,4 +1,4 @@
-# 🏨 GestionHotel – Hotel Management System
+# GestionHotel – Hotel Management System
 
 ## 📌 Project Overview
 
@@ -53,6 +53,15 @@ GestionHotel/
 
 ---
 
+```md
+### 🏠 Home Page
+![Home Page](images/Images/HomePage.png)
+
+### 🛏️ Rooms Page
+![Rooms](images/Images/RoomsPage.png)
+
+
+
 ## ⚙️ Installation Guide
 
 1. Clone the repository:
@@ -68,7 +77,8 @@ Configure the database connection inside db.php.
 Run the project in your browser:
 
 http://localhost/GestionHotel
-🎯 Features
+
+Features
 Room display
 
 Online reservation system
