@@ -53,14 +53,14 @@ GestionHotel/
 
 ---
 
-```md
+
 ### 🏠 Home Page
 ![Home Page](images/Images/HomePage.png)
 
 ### 🛏️ Rooms Page
 ![Rooms](images/Images/RoomsPage.png)
 
-
+```md
 
 ## ⚙️ Installation Guide
 
