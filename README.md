@@ -60,25 +60,28 @@ GestionHotel/
 ### 🛏️ Rooms Page
 ![Rooms](images/Images/RoomsPage.png)
 
-```md
+
 
 ## ⚙️ Installation Guide
 
 1. Clone the repository:
 
-```bash
+```
 git clone https://github.com/CondoRHxH/GestionHotel.git
-Move the folder into your htdocs directory (if using XAMPP).
 
-Create a MySQL database.
+```
+- Move the folder into your htdocs directory (if using XAMPP).
 
-Configure the database connection inside db.php.
+- Create a MySQL database.
 
-Run the project in your browser:
+- Configure the database connection inside db.php.
+
+- Run the project in your browser:
+
 
 http://localhost/GestionHotel
 
-Features
+## Features
 Room display
 
 Online reservation system
