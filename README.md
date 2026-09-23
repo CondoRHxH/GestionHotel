@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-GestionHotel is a web-based hotel management system developed using PHP, HTML, CSS, and MySQL.  
+Gestion d'Hotel is a web based hotel management system developed using PHP, HTML, CSS, and MySQL.  
 
 The goal of this project is to manage hotel operations such as room display, reservations, and payment processing in a simple and efficient way.
 
