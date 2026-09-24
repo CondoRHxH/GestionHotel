@@ -16,7 +16,7 @@ This project was created for learning purposes and demonstrates backend developm
 - HTML5
 - CSS3
 - MySQL
-- XAMPP / WAMP (Local Server)
+- XAMPP (Local Server)
 
 ---
 
