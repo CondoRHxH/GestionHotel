@@ -36,7 +36,7 @@ GestionHotel/
 ├── paiement.html
 ├── paiements.txt
 ├── images/
-└── style/
+└── style
 ```
 
 
