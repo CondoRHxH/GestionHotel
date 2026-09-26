@@ -47,7 +47,7 @@ GestionHotel/
 - **chambre.php** – Room management and display
 - **reservation.php** – Reservation form and logic
 - **liste_reservation.php** – Reservation listing
-- **traitement_paiement.php** – Payment processing
+- **traitement_paiement.php** – Reservation processing
 - **images/** – Project images
 - **style/** – CSS styles
 
