@@ -1,6 +1,6 @@
 # GestionHotel – Hotel Management System
 
-## 📌 Project Overview
+## Project Overview
 
 Gestion d'Hotel is a web based hotel management system developed using PHP, HTML, CSS, and MySQL.  
 
@@ -10,7 +10,7 @@ This project was created for learning purposes and demonstrates backend developm
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - PHP
 - HTML5
@@ -20,7 +20,7 @@ This project was created for learning purposes and demonstrates backend developm
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 GestionHotel/
@@ -54,15 +54,15 @@ GestionHotel/
 ---
 
 
-### 🏠 Home Page
+### Home Page
 ![Home Page](images/Images/HomePage.png)
 
-### 🛏️ Rooms Page
+### Rooms Page
 ![Rooms](images/Images/RoomsPage.png)
 
 
 
-## ⚙️ Installation Guide
+## Installation Guide
 
 1. Clone the repository:
 
