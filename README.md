@@ -43,13 +43,13 @@ GestionHotel/
 
 ### File Description
 
-- **db.php** – Database connection
-- **chambre.php** – Room management and display
-- **reservation.php** – Reservation form and logic
-- **liste_reservation.php** – Reservation listing
-- **traitement_paiement.php** – Reservation processing
-- **images/** – Project images
-- **style/** – CSS styles
+- **db.php** : Database connection
+- **chambre.php** : Room management and display
+- **reservation.php** : Reservation form and logic
+- **liste_reservation.php** : Reservation listing
+- **traitement_paiement.php** : Reservation processing
+- **images/** : Project images
+- **style/** : CSS styles
 
 ---
 
