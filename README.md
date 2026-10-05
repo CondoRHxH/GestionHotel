@@ -82,13 +82,9 @@ git clone https://github.com/CondoRHxH/GestionHotel.git
 http://localhost/GestionHotel
 
 ## Features
-Room display
-
-Online reservation system
-
-Payment simulation
-
-Reservation listing
-
-Simple and clean user interface
+- Room display.
+- Online reservation system.
+- Payment simulation.
+- Reservation listing.
+- Simple and clean user interface.
 
